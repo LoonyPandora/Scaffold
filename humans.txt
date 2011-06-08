@@ -1,0 +1,14 @@
+/* http://humanstxt.org */
+
+
+/* TEAM */
+  Dude: James Aitken
+  Site: http://loonypandora.co.uk
+  Twitter: @LoonyPandora
+  Location: London, UK
+
+/* THANKS */
+  Skeleton: http://getskeleton.com/
+  HTML5 Boilerplate: http://html5boilerplate.com
+  Eric Meyer: http://meyerweb.com
+  UK2: http://uk2.net/

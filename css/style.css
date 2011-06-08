@@ -1,0 +1,53 @@
+/* 
+* Demo Styles for Scaffold
+*/
+
+
+/* Basic Styles
+================================================== */
+body {
+  background-color: #fcfcfc;
+  background-image: url('../img/bg_tile.gif');
+}
+
+#container {
+  width: 960px;
+  min-height: 100px;
+  margin: 21px auto 21px auto;
+}
+
+
+/* Tabs
+================================================== */
+
+/* Make the tabs "boxed in" */
+ul.tabs-content {
+  background-color: #fff;
+  border: solid 1px #ddd;
+  border-width: 0 1px 1px 1px;
+  padding-bottom: 4px;
+}
+
+ul.tabs-content > li.active {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+
+/* Navigation
+================================================== */
+
+/* Remove margins for navigation lists */
+.nav ul, .nav li { margin: 0; list-style:none; list-style-image: none; }
+
+
+
+/* Colours
+================================================== */
+
+::-moz-selection { background: #2f992f; color:#fff; text-shadow: none; }
+::selection      { background: #2f992f; color:#fff; text-shadow: none; }
+a:link           { -webkit-tap-highlight-color: #2f992f; }
+
+a, a:visited     { color: #2f2f99; }
+a:hover, a:focus { color: #992f2f; }
