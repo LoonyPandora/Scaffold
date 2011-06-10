@@ -185,7 +185,7 @@ img      { max-width: 100%; height: auto;   }
 input::-moz-focus-inner,
 button::-moz-focus-inner {
   border: 0;
-  padding: 6px 1px;
+  padding: 6px 1px 5px 1px;
 }
 
 a.button img,
@@ -197,10 +197,11 @@ button img {
 
 /* When done on a link in a para, need to keep it on the baseline grid */
 p a.button {
-  margin-top: 6px;
-  margin-bottom: 6px;
+  margin-top: 5px;
+  margin-bottom: 7px;
+  vertical-align: middle;
+  line-height: 26px;
 }
-
 
 /* Attributes for all states that never ever change */
 /* Gives a height of 28px including borders */
@@ -219,7 +220,7 @@ input[type="button"] {
   margin:  0;
   padding: 0 10px;
   line-height: 26px;
-  vertical-align: middle;
+  vertical-align: top;
   -moz-border-radius:    3px;
   -webkit-border-radius: 3px;
   border-radius:         3px;
