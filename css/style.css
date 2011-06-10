@@ -159,9 +159,9 @@ a.button.disabled, button.disabled,
 input[type="submit"].disabled,
 input[type="reset"].disabled,
 input[type="button"].disabled {
-  background: #eee;
-  color: #999;
-  border: 1px solid #ccc;
+  background: #ddd;
+  color: #888;
+  border: 1px solid #aaa;
   cursor: default;
 }
 
