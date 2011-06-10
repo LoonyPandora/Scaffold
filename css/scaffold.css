@@ -96,7 +96,7 @@ p          { margin: 0 0 20px 0; }
 p img      { margin: 0;          }
 i, em      { font-style: italic; }
 b, strong  { font-weight: bold;  }
-small      { font-size: 80%;     }
+small      { font-size: 75%; line-height: 0;  }
 del        { text-decoration: line-through; }
 abbr, dfn  { border-bottom: 1px dotted; cursor: help; }
 mark       { font-style: italic; font-weight: bold;   }
@@ -150,22 +150,42 @@ ul { list-style: disc outside;    }
 ol { list-style: decimal outside; }
 
 /* Nested lists should have different styles by default */
-ul ul, ol ul       { list-style: circle outside;  }
-ul ul ul, ol ul ul { list-style: square outside;  }
+ul ul, ol ul       { padding-top: 10px; margin-bottom: 0; list-style: circle outside; }
+ul ol, ul ol ol    { padding-top: 10px; margin-bottom: 0; }
+ul ul ul, ol ul ul { list-style: square outside; }
 
-li, li p {
-  line-height: 20px;
-  margin-bottom: 10px;
-}
+li   { margin-bottom: 10px; line-height: 20px; }
+li p { margin-bottom: 20px; }
+
 
 
 
 /* Tables
 ================================================== */
 
-table { border-collapse: collapse; border-spacing: 0; }
-th    { font-weight: bold;   }
-td    { vertical-align: top; }
+table {
+  font-size: 12px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+table caption { font-style: italic; }
+
+th {
+  text-align: left;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+td {
+  border: 1px solid #ccc;
+  line-height: 19px;
+  padding: 5px;
+}
+
+/* For browsers that support it - zebra stripe */
+tbody tr:nth-of-type(odd) { background-color: #f0f0f0; }
 
 
 
@@ -416,7 +436,7 @@ ul.tabs li a {
   text-decoration: none;
   width: auto;
   height: 29px;
-  padding: 0px 20px;
+  padding: 0px 14px;
   line-height: 30px;
   border: solid 1px #ddd;
   border-width: 1px 0 0 1px;

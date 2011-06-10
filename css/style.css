@@ -129,7 +129,18 @@ input[type="button"].destructive:hover {
   background-color: #d1544e !important;
   color: #fff;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
-  border: 1px solid #c44;
+  border:       1px solid #a15f59;
+  border-top:   1px solid #d15f59;
+  border-left:  1px solid #d15f59;
+}
+
+a.button.destructive:active, button.destructive:active,
+input[type="submit"].destructive:active,
+input[type="reset"].destructive:active,
+input[type="button"].destructive:active {
+  border:        1px solid #a15f59;
+  border-bottom: 1px solid #d15f59;
+  border-right:  1px solid #d15f59;
 }
 
 
