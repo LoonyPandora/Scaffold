@@ -215,6 +215,7 @@ input[type="button"] {
   margin:  0;
   padding: 0 10px;
   line-height: 26px;
+  vertical-align: middle;
   -moz-border-radius:    3px;
   -webkit-border-radius: 3px;
   border-radius:         3px;
@@ -370,6 +371,21 @@ legend span {
   color: #444;
 }
 
+
+/* Upload fields - Can never style these effectively */
+/* So just normalize what we can, and accept it will look bad in some browsers */
+input[type="file"] {
+  font: 12px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+  border: none;
+  outline: none;
+  max-width: 100%;
+  min-width: 220px;
+  display: block;
+  height: 20px;
+  padding: 4px;
+  margin: 0 0 12px 0;
+}
 
 
 
