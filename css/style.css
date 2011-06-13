@@ -18,6 +18,18 @@ body {
 }
 
 
+/* Forms
+================================================== */
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="file"],
+textarea,
+select {
+  min-width: 220px;
+}
+
 
 /* Tabs
 ================================================== */
