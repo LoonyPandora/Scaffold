@@ -171,6 +171,7 @@ table {
 }
 
 table caption { font-style: italic; }
+table p { margin: 0; }
 
 th {
   text-align: left;
