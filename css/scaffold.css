@@ -206,7 +206,13 @@ img      { max-width: 100%; height: auto;   }
 input::-moz-focus-inner,
 button::-moz-focus-inner {
   border: 0;
-  padding: 6px 1px;
+}
+
+/* Opera needs an explicit height setting, luckily it doesn't impact other browsers */
+input[type="submit"],
+input[type="reset"],
+button {
+  height: 28px;
 }
 
 a.button img,
@@ -246,6 +252,7 @@ input[type="button"] {
   -webkit-border-radius: 3px;
   border-radius:         3px;
 }
+
 
 a.button, button,
 input[type="submit"],
