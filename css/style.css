@@ -1,0 +1,191 @@
+/* 
+* Demo Styles for Scaffold
+*/
+
+
+
+/* Basic Styles
+================================================== */
+body {
+  background-color: #fcfcfc;
+  background-image: url('../img/bg_tile.gif');
+}
+
+#container {
+  width: 960px;
+  min-height: 100px;
+  margin: 21px auto 21px auto;
+}
+
+
+/* Forms
+================================================== */
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="file"],
+textarea,
+select {
+  min-width: 220px;
+}
+
+
+/* Tabs
+================================================== */
+
+/* Make the tabs "boxed in" */
+ul.tabs-content {
+  background-color: #fff;
+  border: solid 1px #ddd;
+  border-width: 0 1px 1px 1px;
+  padding-bottom: 4px;
+}
+
+ul.tabs-content > li.active {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+
+
+/* Navigation
+================================================== */
+
+/* Remove margins for navigation lists */
+.nav ul, .nav li { margin: 0; list-style:none; list-style-image: none; }
+
+
+
+/* Colours
+================================================== */
+
+a                 { color: #2f2f99; }
+a:visited         { color: #2f2f99; }
+a:hover, a:active { outline: none;  }
+a:hover, a:focus  { color: #992f2f; }
+
+::-moz-selection { background: #2f992f; color:#fff; text-shadow: none; }
+::selection      { background: #2f992f; color:#fff; text-shadow: none; }
+a:link           { -webkit-tap-highlight-color: #2f992f; }
+
+
+
+/* Button Colors
+================================================== */
+
+/* Default button text to grey */
+a.button { color: #444; }
+
+
+/* Blue */
+a.button.blue, button.blue,
+input[type="submit"].blue,
+input[type="reset"].blue,
+input[type="button"].blue {
+  background-color: #518cc6;
+  border:       1px solid #2a65a0;
+  border-top:   1px solid #518cc6;
+  border-left:  1px solid #518cc6;
+  text-shadow:  0 -1px rgba(0, 0, 0, .3);
+  color: #fcfcfc;
+}
+
+a.button.blue:active, button.blue:active,
+input[type="submit"].blue:active,
+input[type="reset"].blue:active,
+input[type="button"].blue:active {
+  border:        1px solid #2a65a0;
+  border-bottom: 1px solid #518cc6;
+  border-right:  1px solid #518cc6;
+}
+
+
+
+/* Red */
+a.button.red, button.red,
+input[type="submit"].red,
+input[type="reset"].red,
+input[type="button"].red {
+  background-color: #d1544e;  
+  border:       1px solid #a15f59;
+  border-top:   1px solid #d15f59;
+  border-left:  1px solid #d15f59;
+  text-shadow: 0 -1px rgba(0, 0, 0, .3);
+  color: #fcfcfc;
+}
+
+a.button.red:active, button.red:active,
+input[type="submit"].red:active,
+input[type="reset"].red:active,
+input[type="button"].red:active {
+  border:        1px solid #a15f59;
+  border-bottom: 1px solid #d15f59;
+  border-right:  1px solid #d15f59;
+}
+
+
+
+/* Destructive (red text, red bg on hover) */
+a.button.destructive, button.destructive,
+input[type="submit"].destructive,
+input[type="reset"].destructive,
+input[type="button"].destructive {
+  color: #c33;
+}
+
+a.button.destructive:hover, button.destructive:hover,
+input[type="submit"].destructive:hover,
+input[type="reset"].destructive:hover,
+input[type="button"].destructive:hover {
+  background-color: #d1544e !important;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+  border:       1px solid #a15f59;
+  border-top:   1px solid #d15f59;
+  border-left:  1px solid #d15f59;
+}
+
+a.button.destructive:active, button.destructive:active,
+input[type="submit"].destructive:active,
+input[type="reset"].destructive:active,
+input[type="button"].destructive:active {
+  border:        1px solid #a15f59;
+  border-bottom: 1px solid #d15f59;
+  border-right:  1px solid #d15f59;
+}
+
+
+
+/* Confirm (Green text, Green bg on hover) */
+a.button.confirm, button.confirm,
+input[type="submit"].confirm,
+input[type="reset"].confirm,
+input[type="button"].confirm {
+  color: #090;
+}
+
+a.button.confirm:hover, button.confirm:hover,
+input[type="submit"].confirm:hover,
+input[type="reset"].confirm:hover,
+input[type="button"].confirm:hover {
+  background-color: #494 !important;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+  border: 1px solid #494;
+}
+
+
+
+/* Disabled */
+a.button.disabled, button.disabled,
+input[type="submit"].disabled,
+input[type="reset"].disabled,
+input[type="button"].disabled {
+  background: #ddd;
+  color: #888;
+  border: 1px solid #aaa;
+  cursor: default;
+}
+
+
