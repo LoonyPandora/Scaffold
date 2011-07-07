@@ -1,5 +1,5 @@
 /* 
-* Scaffold v0.1.0
+* Scaffold v0.2.0
 * Copyright 2011, James Aitken. Licensed Under MIT License..
 * Based on Skeleton & HTML5 Boilerplate
 * http://getskeleton.com
@@ -419,6 +419,13 @@ input[type="file"] {
 }
 
 
+/* Make sure hidden fields are really hidden */
+input[type="hidden"] {
+  display: none;
+  visibility: hidden;
+}
+
+
 
 /* Tabs
 ================================================== */
@@ -497,7 +504,6 @@ ul.tabs-content {
 ul.tabs-content > li        { list-style: none; display: none;  }
 ul.tabs-content > li.active { list-style: none; display: block; }
 
-
 /* Clearfixing the tabs directly */
 ul.tabs:before, ul.tabs:after { content:""; display: table; }
 ul.tabs:after { clear:both; }
@@ -512,4 +518,3 @@ ul.tabs { zoom:1; }
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
-
