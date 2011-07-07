@@ -4,7 +4,7 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-<meta charset="utf-8" />
+    <meta charset="utf-8" />
     <title>Funhouse</title>
     <meta name="description" content="Test Page with lots of elements on it">
     <meta name="author" content="James Aitken">
@@ -21,255 +21,296 @@
 <body>
     
     <div id="container">
-        <h1>FUNHOUSE!</h1>
+        <h1>Funhouse!</h1>
         <p>This is a page to show off the capabilities of my scaffold.css It's pretty much just a bunch of elements (such as forms and lists). It can be used as some form of manual regression testing, if I ever make any changes to the baseline styles.</p>
-        <p>It borrows heavily from <a href="http://getskeleton.com">Skeleton</a> and <a href="http://html5boilerplate.com">html5boilerplate.com</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, It borrows heavily from <a href="http://getskeleton.com">Skeleton</a> and <a href="http://html5boilerplate.com">html5boilerplate.com</a>. quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
-        <hr>
-        <p>It is intended to be used as a baseline for my own visual language</p>
-        <hr>
+        <p>It borrows heavily from <a href="http://getskeleton.com">Skeleton</a> and <a href="http://html5boilerplate.com">html5boilerplate.com</a>. If you are looking for a CSS framework or starting point, I suggest you first look at one of those projects. They are much better supported.</p>
+        <p>You can have a look through the code, and fork it on <a href="https://github.com/LoonyPandora/Scaffold">GitHub</a></p>
+    <hr>
 
         <ul class="tabs">
-          <li><a class="active" href="#simple">Simple</a></li>
-          <li><a href="#lightweight">Lightweight</a></li>
-          <li><a href="#mobileFriendly">Mobile</a></li>
+          <li><a class="active" href="#paragraph">Basic Elements</a></li>
+          <li><a href="#heading">Headings</a></li>
+          <li><a href="#list_and_table">Lists &amp; Tables</a></li>
+          <li><a href="#form">Forms</a></li>
         </ul>
 
         <ul class="tabs-content">
-          <li class="active" id="simpleTab">The tabs are clean and simple unordered-list markup and basic CSS.</li>
-          <li id="lightweightTab">The tabs are cross-browser, but don't need a ton of hacky CSS or markup.</li>
-          <li id="mobileFriendlyTab">The tabs work like a charm even on mobile devices.</li>
-        </ul>
-
-        <p>It is intended to be used as a baseline for my own visual language</p>
-        <hr>
-
-        <p>Hello this is cool to the n<sup>th</sup> degree - Have some H<sub>2</sub>SO<sub>4</sub> to go with it.
-
-        <hr>
-
-        <pre>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</pre>
-
-        <hr>
-
-        <table>
-            <tr>
-                <td>TD ONE</td>
-                <td>TD TWO</td>
-                <td>TD THREE</td>
-            </tr>
-            <tr>
-                <td>TR TWO</td>
-                <td>TR TWO</td>
-            </tr>
-        </table>
-<br />
-
-        <hr>
-        <ins>insert</ins>
-        <mark>mark</mark>
-        <abbr title="hello">abbr</abbr>
-<br /><br />
-        <ins>hello</ins>
-
-        <h1>Heading &lt;h1&gt;</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <h2>Heading &lt;h2&gt;</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <h3>Heading &lt;h3&gt;</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <h4>Heading &lt;h4&gt;</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <h5>Heading &lt;h5&gt;</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <h6>Heading &lt;h6&gt;</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <li class="active" id="paragraphTab">
+            <p>Let's have a short paragraph of text, and then get on to seeing a bunch of text-level elements</p>
+            <p>
+            The <a href="#">a element</a> example<br>
+            The <abbr title="Title text">abbr element</abbr> example<br>
+            The <b>b element</b> example<br>
+            The <cite>cite element</cite> example<br>
+            The <code>code element</code> example<br>
+            The <del>del element</del> example<br>
+            The <dfn>dfn element</dfn> example<br>
+            The <em>em element</em> example<br>
+            The <i>i element</i> example<br>
+            The img element <img src="http://placehold.it/20x15" alt="placehold.it"> example<br>
+            The <ins>ins element</ins> example<br>
+            The <kbd>kbd element</kbd> example<br>
+            The <mark>mark element</mark> example<br>
+            The <q>q element <q>inside</q> a q element</q> example<br>
+            The <s>s element</s> example<br>
+            The <samp>samp element</samp> example<br>
+            The <small>small element</small> example<br>
+            The <span>span element</span> example<br>
+            The <strike>strike element</strike> example<br>
+            The <strong>strong element</strong> example<br>
+            The <sub>sub element</sub> example<br>
+            The <sup>sup element</sup> example<br>
+            The <var>var element</var> example<br>
+            The <u>u element</u> example<br>
+            <pre>This is a paragraph demonstrating the pre element</pre>
+            <blockquote>This is a paragraph demonstrating the blockquote element</blockquote>
+            </p>
 
 
-        <h2>Forms</h2>
-        <p>Forms can be one of the biggest pains for web developers, but just use these dead simple styles and you should be good to go. </p>
-        <form>
-            <label for="regularInput">Regular Input</label>
-            <input type="text" id="regularInput"  style="float: left;" />
-            <a href="#" class="button" style="float: left; margin-left: 5px;">Button</a>
-            <br style="clear: both;" />
+          </li>
+          <li id="headingTab">
+            <h1>Heading &lt;h1&gt; – 46px</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h2>Heading &lt;h2&gt; – 36px</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h3>Heading &lt;h3&gt; – 28px</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h4>Heading &lt;h4&gt; – 21px</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h5>Heading &lt;h5&gt; – 18px</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h6>Heading &lt;h6&gt; – 14px</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </li>
+          <li id="list_and_tableTab">
+            <h3>Tables</h3>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <label for="regularInput">Regular Input</label>
-            <input type="text" id="regularInput"  />
+            <table summary="Jimi Hendrix albums">
+                <caption>Jimi Hendrix - albums</caption>
+                <thead>
+                    <tr>
+                        <th>Album</th>
+                        <th>Year</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>Album</th>
+                        <th>Year</th>
+                        <th>Price</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td>Are You Experienced</td>
+                        <td>1967</td>
+                        <td>$10.00</td>
+                    </tr>
+                    <tr>
+                        <td>Axis: Bold as Love</td>
+                        <td>1967</td>
+                        <td>$12.00</td>
+                    </tr>
+                    <tr>
+                        <td>Electric Ladyland</td>
+                        <td>1968</td>
+                        <td>$10.00</td>
+                    </tr>
+                    <tr>
+                        <td>Band of Gypsys</td>
+                        <td>1970</td>
+                        <td>$12.00</td>
+                    </tr>
+                </tbody>
+            </table>
 
-            <label for="regularInput">Regular Input</label>
-            <input type="text" id="regularInput"  />
+            <h3>Ordered Lists</h3>
 
-            <label for="regularInput">Regular Input</label>
-            <input type="text" id="regularInput"  />
+            <ol>
+                <li>list item 1</li>
+                <li>list item 1
+                    <ol>
+                        <li>list item 2</li>
+                        <li>list item 2
+                            <ol>
+                                <li>list item 3</li>
+                                <li>list item 3</li>
+                            </ol>
+                        </li>
+                        <li>list item 2</li>
+                        <li>list item 2</li>
+                    </ol>
+                </li>
+                <li>list item 1</li>
+                <li>list item 1</li>
+            </ol>
 
-            <label for="regularInput">Regular Input</label>
-            <input type="text" id="regularInput"  />
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h3>Unordered Lists</h3>
 
-            <label for="regularInput">Regular Input</label>
-            <input type="text" id="regularInput"  />
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-           <label for="regularTextarea">Regular Textarea</label>
-            <textarea id="regularTextarea"></textarea>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-            <label for="selectList">Select List</label>
-            <select id="selectList" style="float: left;">
-                <option value="Option 1">Option 1</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 3">Option 3</option>
-                <option value="Option 4">Option 4</option>
-            </select>
-
-
-            <a href="#" class="button" style="float: left; margin-left: 5px;">Button</a>
-            
-            <hr />
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-            <label for="selectMultiple">Select Multiple</label>
-            <select id="selectMultiple" size="2" class="multiple">
-                <option value="Option 1">Option 1</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 3">Option 3</option>
-                <option value="Option 4">Option 4</option>
-            </select>
-
-            <fieldset>
-                <legend>Checkboxes</legend>
-                <label for="regularCheckbox">
-                    <input type="checkbox" id="regularCheckbox" value="checkbox 1" />
-                    <span>Regular Checkbox</span>
-                </label>
-                <label for="secondRegularCheckbox">
-                    <input type="checkbox" id="secondRegularCheckbox" value="checkbox 2" />
-                    <span>Regular Checkbox</span>
-                </label>
-            </fieldset>
-            <fieldset>
-                <legend>Radio Buttons</legend>
-                <label for="regularRadio">
-                    <input type="radio" name="radios" id="regularRadio" value="radio 1" />
-                    <span>Regular Radio</span>
-                </label>
-                <label for="secondRegularRadio">
-                    <input type="radio" name="radios" id="secondRegularRadio" value="radio 2" />
-                    <span>Regular Radio</span>
-                </label>
-            </fieldset>
-            <button type="submit">Submit Form</button>
-            
-        </form>
-        
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    
-        <hr />
-        <button type="submit">Button</button>
-        <input type="submit" value="Input">
-        <a href="#" class="button">HREF</a>
-        <input type="submit" value="Input">
-        <a href="#" class="button"><img src="img/home_16.png" /> href with image</a>
-        <input type="submit" value="Input">
-        <button type="submit"><img src="img/home_16.png" /> button with image</button>
-        <br /><br />
-        <hr />
-
-
-
-        <a href="#" class="button blue">Blue Button</a>
-        <a href="#" class="button red">Red Button</a>
-        <a href="#" class="button destructive">Destructive Button</a>
-        <a href="#" class="button confirm">Confirmation Button</a>
-        <a href="#" class="button disabled">Disabled Button</a>
-
-        <br /><br />
-        <hr />
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <input type="file" value="Upload">
-        <input type="file" value="Upload">
-        <input type="file" value="Upload">
-        <input type="file" value="Upload">
-        <input type="file" value="Upload">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-        <hr />
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, <a href="#" class="button"><img src="img/home_16.png" /> href with image</a> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, <a href="#" class="button">Submit Form</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-        <h2>Lists</h2>
-        <ul>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>consectetur adipisicing elit</li>
-            <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>consectetur adipisicing elit</li>
-            <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>consectetur adipisicing elit</li>
-            <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>consectetur adipisicing elit</li>
-            <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-            <li><p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p></li>
-            <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-            <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
             <ul>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>consectetur adipisicing elit</li>
-                <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-
-                <ul>
-                    <li>Lorem ipsum dolor sit amet</li>
-                    <li>consectetur adipisicing elit</li>
-                    <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                </ul>
+                <li>list item 1</li>
+                <li>list item 1
+                    <ul>
+                        <li>list item 2</li>
+                        <li>list item 2
+                            <ul>
+                                <li>list item 3</li>
+                                <li>list item 3</li>
+                            </ul>
+                        </li>
+                        <li>list item 2</li>
+                        <li>list item 2</li>
+                    </ul>
+                </li>
+                <li>list item 1</li>
+                <li>list item 1</li>
             </ul>
 
+          </li>
+          <li id="formTab">
+
+
+            <form>
+                <label for="regularInput">Regular Input</label>
+                <input type="text" id="regularInput"  style="float: left;" />
+                <a href="#" class="button" style="float: left; margin-left: 5px;">Button</a>
+                <br style="clear: both;" />
+
+                <input type="hidden" id="hidden_input" />
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <label for="regularInput">Regular Input</label>
+                <input type="text" id="regularInput"  />
+
+                <label for="regularInput">Regular Input</label>
+                <input type="text" id="regularInput"  />
+
+                <label for="regularInput">Regular Input</label>
+                <input type="text" id="regularInput"  />
+
+                <label for="regularInput">Regular Input</label>
+                <input type="text" id="regularInput"  />
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                <label for="regularInput">Regular Input</label>
+                <input type="text" id="regularInput"  />
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+               <label for="regularTextarea">Regular Textarea</label>
+                <textarea id="regularTextarea"></textarea>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                <label for="selectList">Select List</label>
+                <select id="selectList" style="float: left;">
+                    <option value="Option 1">Option 1</option>
+                    <option value="Option 2">Option 2</option>
+                    <option value="Option 3">Option 3</option>
+                    <option value="Option 4">Option 4</option>
+                </select>
+
+
+                <a href="#" class="button" style="float: left; margin-left: 5px;">Button</a>
+    
+                <hr />
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                <label for="selectMultiple">Select Multiple</label>
+                <select id="selectMultiple" size="2" multiple="multiple" class="multiple">
+                    <option value="Option 1">Option 1</option>
+                    <option value="Option 2">Option 2</option>
+                    <option value="Option 3">Option 3</option>
+                    <option value="Option 4">Option 4</option>
+                </select>
+
+                <fieldset>
+                    <legend>Checkboxes</legend>
+                    <label for="regularCheckbox">
+                        <input type="checkbox" id="regularCheckbox" value="checkbox 1" />
+                        <span>Regular Checkbox</span>
+                    </label>
+                    <label for="secondRegularCheckbox">
+                        <input type="checkbox" id="secondRegularCheckbox" value="checkbox 2" />
+                        <span>Regular Checkbox</span>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Radio Buttons</legend>
+                    <label for="regularRadio">
+                        <input type="radio" name="radios" id="regularRadio" value="radio 1" />
+                        <span>Regular Radio</span>
+                    </label>
+                    <label for="secondRegularRadio">
+                        <input type="radio" name="radios" id="secondRegularRadio" value="radio 2" />
+                        <span>Regular Radio</span>
+                    </label>
+                </fieldset>
+                <button type="submit">Submit Form</button>
+    
+            </form>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            <hr />
+            <button type="submit">Button</button>
+            <input type="submit" value="Input">
+            <a href="#" class="button">HREF</a>
+            <input type="submit" value="Input">
+            <a href="#" class="button"><img src="img/home_16.png" /> href with image</a>
+            <input type="submit" value="Input">
+            <button type="submit"><img src="img/home_16.png" /> button with image</button>
+            <br /><br />
+            <hr />
+
+
+
+            <a href="#" class="button blue">Blue Button</a>
+            <a href="#" class="button red">Red Button</a>
+            <a href="#" class="button destructive">Destructive Button</a>
+            <a href="#" class="button confirm">Confirmation Button</a>
+            <a href="#" class="button disabled">Disabled Button</a>
+
+            <br /><br />
+            <hr />
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <input type="file" value="Upload">
+            <input type="file" value="Upload">
+            <input type="file" value="Upload">
+            <input type="file" value="Upload">
+            <input type="file" value="Upload">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            <hr />
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, <a href="#" class="button"><img src="img/home_16.png" /> href with image</a> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, <a href="#" class="button">Submit Form</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+
+
+          </li>
         </ul>
 
-        <ol>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>consectetur adipisicing elit</li>
-            <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>consectetur adipisicing elit</li>
-            <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>consectetur adipisicing elit</li>
-            <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>consectetur adipisicing elit</li>
-            <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-        </ol>
     
 </body>
 </html>
-
-
-
