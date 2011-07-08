@@ -223,11 +223,15 @@ button img {
 }
 
 /* When done on a link in a para, need to keep it on the baseline grid */
+p input[type="submit"],
+p input[type="reset"],
+p button,
 p a.button {
   margin-top: 5px;
   margin-bottom: 7px;
   vertical-align: middle;
   line-height: 26px;
+  outline: 1px solid red;
 }
 
 /* Attributes for all states that never ever change */
